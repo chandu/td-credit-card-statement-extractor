@@ -1,0 +1,17 @@
+[project]
+name = "jupyter-me"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jpype1>=1.5.1",
+    "pandas>=2.2.3",
+    "pikepdf>=9.5.1",
+    "tabula-py>=2.10.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.2",
+]
